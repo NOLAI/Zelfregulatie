@@ -1,0 +1,12 @@
+[submodule "srl-dashboard"]
+	path = srl-dashboard
+	url = git@github.com:NOLAI/srl-dashboard.git
+[submodule "srl-api"]
+	path = srl-api
+	url = git@github.com:NOLAI/srl-api.git
+[submodule "FLoRA_backend"]
+	path = FLoRA_backend
+	url = git@github.com:NOLAI/FLoRA_backend.git
+[submodule "flora-admin2"]
+	path = flora-admin2
+	url = git@github.com:NOLAI/flora-admin2.git
