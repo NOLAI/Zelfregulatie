@@ -1,8 +1,8 @@
 # Zelfregulatie
-FLoRA
+
 Dit is een NOLAI co-creatie project. Voor meer details over het co-creatie project, zie hier: https://www.ru.nl/onderzoek/onderzoeksprojecten/zelfregulatie-tijdens-het-schrijven
 
-Deze repository is een bundeling van de onderliggende software. Deels is deze buiten het co-creatie project ontwikkeld en deels speciaal voor dit co-creatie project.
+Deze repository is een bundeling van de onderliggende software. Deels is deze buiten het co-creatie project ontwikkeld en deels speciaal voor dit co-creatie project. Voor informatie zie de READMEs van deze projecten.
 
 [De Flora backend](FLoRA/) bestond al voor het co-creatie project en is veel breder inzetbaar. De [srl (self regulated learning) API](srl-api/) en het [srl Dashboard](srl-dashboard/) zijn voor dit project ontwikkeld.
 
@@ -20,6 +20,19 @@ Om het gehele project na te maken en de software te hergebruiken vraagt enige ex
 
 Daarnaast is voor de srl API toegang nodig to [LIWC](https://www.liwc.app/), dit vereist een abbonement.
 
+### Onderlinge koppeling
+
+Tussen de verschillende services wordt de informatie voornamelijk via de database uitgewisseld. Voor de analyse pipeline uit de srl projecten is het nodig dat de door de Flora backend verzamelde data gelabeld wordt. Dit kan door een request als het volgende te maken:
+
+```
+curl 'https://<flora backend url>/myapi/data/label-model/request-labeling' \
+  -X POST \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <moodle_token>' \
+  --data-raw '{"userIDs":[<moodle_user_ids>],"dataItem":1,"courseIDs":[<moodle_course_ids>],"adminID":"<moodle_admin_name>"}'
+```
+
 ## Configuratie
 
 De meeste configuratie instructies staan in de sub-projecten zelf. Maar er zijn een aantal dingen die misschien niet meteen duidelijk zijn.
@@ -36,7 +49,7 @@ Voor het aanpassen van script functionaliteit kan ook [general_config_all_course
 
 ## Vragen
 
-Voor vragen over de technische aspecten van het project neem vooral contact op met het NOLAI tech team: nolai@science.ru.nl
+Voor vragen over de technische aspecten van het project neem vooral contact op met het [NOLAI tech team](mailto:nolai.tech@ru.nl).
 
 ## Funding
 
