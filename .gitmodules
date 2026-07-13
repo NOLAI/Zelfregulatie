@@ -4,3 +4,6 @@
 [submodule "srl-api"]
 	path = srl-api
 	url = git@github.com:NOLAI/srl-api.git
+[submodule "FLoRA"]
+	path = FLoRA
+	url = git@github.com:NOLAI/FLoRA.git
