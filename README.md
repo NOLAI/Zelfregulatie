@@ -51,6 +51,12 @@ Voor het aanpassen van script functionaliteit kan ook [general_config_all_course
 
 Voor vragen over de technische aspecten van het project neem vooral contact op met het [NOLAI tech team](mailto:nolai.tech@ru.nl).
 
+## Gerelateerde publicaties
+
+[Bistolfi, I., de Mooij, S., Sparou, C., Molenaar, I., & van der Graaf, J. (2026, July). Co-designing a Dashboard Promoting SRL for Secondary Education. In International Conference on Human-Computer Interaction (pp. 37-58). Cham: Springer Nature Switzerland.](https://doi.org/10.1007/978-3-032-30781-1_3)
+
+[Bistolfi, I., de Mooij, S., van der Graaf, J., & Molenaar, I. (2025, July). Towards real-time automated self-regulated learning detection in essays. In International Conference on Artificial Intelligence in Education (pp. 377-392). Cham: Springer Nature Switzerland.](https://doi.org/10.1007/978-3-031-98420-4_27)
+
 ## Funding
 
 Dit project is mede gefinancierd door het [Nationaal Onderwijslab AI](https://nolai.nl)
