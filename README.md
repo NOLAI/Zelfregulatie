@@ -4,7 +4,7 @@ Dit is een NOLAI co-creatie project. Voor meer details over het co-creatie proje
 
 Deze repository is een bundeling van de onderliggende software. Deels is deze buiten het co-creatie project ontwikkeld en deels speciaal voor dit co-creatie project. Voor informatie zie de READMEs van deze projecten.
 
-[De Flora backend](FLoRA/) bestond al voor het co-creatie project en is veel breder inzetbaar. De [srl (self regulated learning) API](srl-api/) en het [srl Dashboard](srl-dashboard/) zijn voor dit project ontwikkeld.
+[De Flora backend](FLoRA/) bestond al voor het co-creatie project en is veel breder inzetbaar. De [srl (self regulated learning) API]([srl-api/](https://github.com/NOLAI/srl-api)) en het [srl Dashboard]([srl-dashboard/](https://github.com/NOLAI/srl-dashboard)) zijn voor dit project ontwikkeld.
 
 ## Benodigheden om zelf het project te reproduceren
 
